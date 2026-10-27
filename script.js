@@ -9,10 +9,10 @@ const products = [
 ];
 
 // --- HTMLの要素を取得 ---
-const productContainer = document.getElementById('product-container');
-const showAllBtn = document.getElementById('show-all');
-const filterPriceBtn = document.getElementById('filter-price');
-const filterStockBtn = document.getElementById('filter-stock');
+const productContainer = document.querySelector('#product-container');
+const showAllBtn = document.querySelector('#show-all');
+const filterPriceBtn = document.querySelector('#filter-price');
+const filterStockBtn = document.querySelector('#filter-stock');
 
 
 // --- 関数：商品の配列を受け取って、画面にカードを表示する ---
